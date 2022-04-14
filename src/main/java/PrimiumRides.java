@@ -1,6 +1,7 @@
 public class PrimiumRides {
 
     public static PrimiumRides Normal;
+
     private final double costperkm;
     private final double costpermin;
 
