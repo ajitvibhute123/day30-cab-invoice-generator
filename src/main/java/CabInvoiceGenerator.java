@@ -18,5 +18,6 @@ public class CabInvoiceGenerator {
             totalFare = totalFare + this.calculateFare(ride.distance, ride.time);
 
         return totalFare;
+   
     }
 }

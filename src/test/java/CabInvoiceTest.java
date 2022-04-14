@@ -26,5 +26,5 @@ public class CabInvoiceTest {
         CabInvoiceGenerator cabInvoiceGenerator = new CabInvoiceGenerator();
         double totalFare = cabInvoiceGenerator.calculateFare(rides);
         Assertions.assertEquals(20, totalFare, 0.0);
-    }
+     }
 }

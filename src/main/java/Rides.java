@@ -7,5 +7,5 @@ public class Rides {
         this.distance = distance;
         this.time = time;
         this.rides=rides;
-    }
+     }
 }
