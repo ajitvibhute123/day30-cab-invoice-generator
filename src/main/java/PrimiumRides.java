@@ -1,6 +1,6 @@
 public class PrimiumRides {
-    public static PrimiumRides Normal;
 
+    public static PrimiumRides Normal;
     private final double costperkm;
     private final double costpermin;
 
@@ -11,5 +11,5 @@ public class PrimiumRides {
 
     public double calcCostOfCabRide(Rides ride) {
         return ride.distance * costperkm + ride.time * costpermin;
-     }
+    }
 }
